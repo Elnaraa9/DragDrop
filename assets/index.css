@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dropElm{
+    background-color: #aaa;
+    width: 60%;
+    height: 360px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.fa-file-upload{
+    font-size: 55px;
+    color: white;
+    cursor: pointer;
+}
+.dropElm input{
+    display: none;
+}
